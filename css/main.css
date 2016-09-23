@@ -1,0 +1,105 @@
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.skip-links a {
+  padding: 0.5em 0.75em;
+  position: absolute;
+  top: -5em;
+  z-index: 10000; /* To make sure they're always on top */
+  background-color: #000;
+  color: #fff;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
+.masthead {
+    text-align: center;
+    overflow-x: auto;
+}
+
+.pug {
+    width: 300px;
+    opacity:0.7;
+    box-shadow: 0 0 0px #000000;
+}   
+
+.pug:hover {
+  
+  border-radius: 20px;
+    background-color: none;
+    opacity: 1;
+}
+
+.titles {
+    font-family: 'Oswald', sans-serif;
+    color: #393E41;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+	color: inherit;
+}
+
+.secondinfo {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    text-decoration: none;
+    color: #393E41;
+}
+
+.filler {
+    background-color: lightgray;
+    height: 500px;
+    widows: 600px;
+}
+
+.image-flex {
+ width: 100%;
+display: block;
+}
+
+.name {
+    color: #587B7F;
+    font-size: 4em;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align: left;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+}
+
+.navlinks {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: block;
+}
+
+.navbar li {
+ display: inline-block;
+}
+
+.script {
+    font-size: 9px;
+    padding: .5em;
+    margin: 1.5em;
+    background-color: #73c8b9;
+    color: white;
+    text-align: left;
+}
