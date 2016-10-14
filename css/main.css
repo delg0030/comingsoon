@@ -22,6 +22,10 @@
     overflow-x: auto;
 }
 
+.all {
+    text-align: center;
+}
+
 .pug {
     height: 100%;
     position: absolute;
@@ -44,8 +48,8 @@
     max-width: 300px;
     min-height: 300px;
     overflow: hidden;
-    background: transparent;
-    margin: 5px;    
+    background: transparent;   
+    padding: 5px;
 }
 
 .titles {
@@ -68,17 +72,13 @@ a:hover, a:visited, a:link, a:active {
     color: #393E41;
 }
 
-.image-flex {
- width: 100%;
-display: block;
-}
-
 .name {
     color: #587B7F;
-    font-size: 4em;
+    font-size: 2em;
     font-family: 'Oswald', sans-serif;
     margin: 0;
-    padding: 0;
+    padding-left: 2em;
+    text-align: left;
 }
 
 .navbar {
@@ -91,22 +91,6 @@ display: block;
   display: block;
 }
 
-.navlinks {
-    color: black;
-    font-size: 1.5em;
-    text-decoration: none;
-    display: block;
-}
-
 .navbar li {
  display: inline-block;
-}
-
-.script {
-    font-size: 9px;
-    padding: .5em;
-    margin: 1.5em;
-    background-color: #73c8b9;
-    color: white;
-    text-align: left;
 }
