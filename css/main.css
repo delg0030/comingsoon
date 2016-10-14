@@ -24,6 +24,8 @@
 
 .all {
     text-align: center;
+    padding: auto;
+    margin-bottom: 1em;
 }
 
 .pug {
@@ -50,10 +52,11 @@
     overflow: hidden;
     background: transparent;   
     padding: 5px;
+    margin: 5px;
 }
 
 .titles {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: #393E41;
     font-size: 20px;
     padding: 0;
@@ -66,18 +69,28 @@ a:hover, a:visited, a:link, a:active {
 }
 
 .secondinfo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Open Sans Condensed', serif;
     font-size: 14px;
     text-decoration: none;
-    color: #393E41;
+    color: #587B7F;
 }
 
 .name {
     color: #587B7F;
     font-size: 2em;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin: 0;
     padding-left: 2em;
+    text-align: left;
+}
+
+.script {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 9px;
+    padding: 1em;
+    margin: auto;
+    background-color: #587B7F;
+    color: white;
     text-align: left;
 }
 
