@@ -17,6 +17,19 @@
   top: 0;
 }
 
+.four {
+    text-align: center;
+    color: aquamarine;
+    background: #000000; 
+    padding: 1em;
+}
+
+.body {
+    text-align: center;
+    padding: 1em;
+    font-size: 5em;
+}
+
 .masthead {
     text-align: center;
     overflow-x: auto;
